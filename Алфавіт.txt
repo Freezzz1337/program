@@ -1,0 +1,46 @@
+#include <iostream>
+#include <iomanip>
+#include "windows.h"
+
+using namespace std;
+
+
+int main()
+
+{
+		SetConsoleCP(1251);
+		SetConsoleOutputCP(1251);
+
+		char x; 
+		cout << "Введіть букву латинського алфавіту" << endl;
+		cin >> x;
+		switch (x)
+		{
+		case 'a': cout << "Голосний"; break;
+		case 'e': cout << "Голосний"; break;
+		case 'o': cout << "Голосний"; break;
+		case 'u': cout << "Голосний"; break;
+		case 'y': cout << "Голосний"; break;
+		case 'b': cout << "Приголосний"; break;
+		case 'c': cout << "Приголосний"; break;
+		case 'd': cout << "Приголосний"; break;
+		case 'f': cout << "Приголосний"; break;
+		case 'g': cout << "Приголосний"; break;
+		case 'h': cout << "Приголосний"; break;
+		case 'j': cout << "Приголосний"; break;
+		case 'k': cout << "Приголосний"; break;
+		case 'l': cout << "Приголосний"; break;
+		case 'm': cout << "Приголосний"; break;
+		case 'n': cout << "Приголосний"; break;
+		case 'p': cout << "Приголосний"; break;
+		case 'q': cout << "Приголосний"; break;
+		case 'r': cout << "Приголосний"; break;
+		case 's': cout << "Приголосний"; break;
+		case 't': cout << "Приголосний"; break;
+		case 'v': cout << "Приголосний"; break;
+		case 'w': cout << "Приголосний"; break;
+		case 'x': cout << "Приголосний"; break;
+		case 'z': cout << "Приголосний"; break;
+		default: cout << " Не Існує "; break;
+		}
+	}
