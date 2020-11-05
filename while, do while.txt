@@ -1,0 +1,27 @@
+#include <iostream>
+#include <iomanip>
+#include "windows.h"
+#include <math.h>
+using namespace std;
+
+
+int main()
+{
+	double a, b ;
+	float h ;
+	cout << "Enter a" << endl;
+	cin >> a ;
+	cout << "Enter b" << endl;
+	cin >> b;
+	cout << "Enter h" << endl;
+	cin >> h;
+	float y, x = a;
+	while (x <= b)
+	{
+		y = tan(pow(x, 3)) + (2 * sin(x) - 3);
+		cout << setw(10) << "x=" << x << setw(10) << "y=" << y << endl;
+		x += h;
+	}
+	system("pause");
+	return 0;
+}
